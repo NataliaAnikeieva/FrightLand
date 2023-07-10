@@ -1,0 +1,53 @@
+.btn {
+    color: $color8;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn_purple {
+    background: linear-gradient(90deg, rgba(236,86,201,1) 90%, rgba(159,42,126,1) 100%);
+    position: relative;
+    border: none;
+    box-shadow: 0 3px #5f204f;
+    transition: .2s;
+    &:hover,
+    &:active {
+        transform: translateY(2px);
+        background: linear-gradient(90deg, rgba(159,42,126,1) 90%, rgba(236,86,201,1) 100%);
+        box-shadow: 1px 2px #c7b3c2;
+    }
+}
+.btn__signin {
+    width: 130px;
+    background: $color4;
+    border: 1px solid #654AFF;
+    border-radius: 10px;
+    transition: .2s;
+    margin: 0 25px 0 50px;
+    &:hover,
+    &:active {
+        background: linear-gradient(90deg, rgba(101,74,255,1) 90%, rgba(79,30,228,1) 100%);
+        transform: translateY(2px);
+        box-shadow: 1px 2px #c7b3c2;
+    }
+}
+.btn__img {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.btn__img1 {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: rotate(94deg);
+}
+@media (max-width: 1200px) {
+    .btn_purple {
+        width: 150px;
+    }
+    .btn__signin {
+        width: 100px;
+    }
+}

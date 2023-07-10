@@ -1,0 +1,47 @@
+@import "../scss/_variables";
+body { 
+    font-family: $main-font;
+    font-size: $fs-md;
+    color: $color2;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: $color1;
+    text-transform: uppercase;
+}
+h1 {
+	font-size: #{$fs-xxlg + 32};
+	font-family: $secondary-font;
+	color: $color1;
+}
+h2 {
+	font-family: $secondary-font;
+}
+h3 {
+	font-family: $secondary-font;
+	font-size: $fs-xxlg;
+}
+h4 {
+	font-family: $secondary-font;
+    font-size: $fs-xlg;
+    margin-bottom: 20px;
+}
+h5 {
+	font-family: $secondary-font;
+	font-size: $fs-xlg;
+}
+p {
+    font-family: $main-font;
+    font-size: $fs-md;
+    color: $color2;
+    margin-bottom: 15px;
+}
+a {
+    color: $color2;
+    &:hover {
+        text-decoration: underline;
+    }
+}

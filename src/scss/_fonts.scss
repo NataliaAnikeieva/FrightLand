@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:regular,600,900);
+@font-face {
+    font-family: 'frightmareregular';
+    src: url('frightmare-webfont.eot');
+    src: url('frightmare-webfont.eot?#iefix') format('embedded-opentype'),
+         url('frightmare-webfont.woff2') format('woff2'),
+         url('frightmare-webfont.woff') format('woff'),
+         url('frightmare-webfont.ttf') format('truetype'),
+         url('frightmare-webfont.svg#frightmareregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+%font-awesome {
+    display: inline-block;
+    font: 14px/1 font-awesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
